@@ -8,7 +8,9 @@ const Auth = () => {
   return (
     <div>
       <div>
-        <h1>Please Login</h1>
+        <h1 className="text-primary">Welcome to Redux Application</h1>
+        <br />
+        <h2>Please Login</h2>
         <input
         style={{'padding': '3px', 'margin': '3px'}}
           type="text"
